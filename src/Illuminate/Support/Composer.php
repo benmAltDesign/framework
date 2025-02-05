@@ -20,8 +20,8 @@ class Composer
     public function __construct(
         protected Filesystem $files,
         protected string|null $workingPath = null
-    )
-    {}
+    ) {
+    }
 
 
     /**

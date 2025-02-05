@@ -15,8 +15,8 @@ class HtmlString implements Htmlable, Stringable
      */
     public function __construct(
         protected string $html = ''
-    )
-    {}
+    ) {
+    }
 
     /**
      * Get the HTML string.

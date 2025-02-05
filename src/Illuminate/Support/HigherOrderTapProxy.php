@@ -12,8 +12,8 @@ class HigherOrderTapProxy
      */
     public function __construct(
         public mixed $target
-    )
-    {}
+    ) {
+    }
 
     /**
      * Dynamically pass method calls to the target.
